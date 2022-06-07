@@ -73,7 +73,7 @@
 
 **Target Program**
 
-[![image](./img_CatA/Task11_ARC_Ex1.png)](./img_CatA/Task11_ARC_Ex1.png)
+[![image](./img_CatA/Task11_ARC.png)](./img_CatA/Task11_ARC.png)
 
 <!-- 
 You can use the [editor on GitHub](https://github.com/ac20/IPARC_Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.

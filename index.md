@@ -75,6 +75,69 @@
 
 [![image](./img_CatA/Task11_ARC.png)](./img_CatA/Task11_ARC.png)
 
+### Category B Tasks
+
+#### Conditional - Task 1
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatB/Conditional/WhereToCrop_Ex1.png)](./img_CatB/Conditional/WhereToCrop_Ex1.png) |
+|Example B| [![image](./img_CatB/Conditional/WhereToCrop_Ex2.png)](./img_CatB/Conditional/WhereToCrop_Ex2.png) |
+|Example C| [![image](./img_CatB/Conditional/WhereToCrop_Ex3.png)](./img_CatB/Conditional/WhereToCrop_Ex3.png) |
+
+<!-- **Target Program** -->
+
+<!-- [![image](./img_CatB/Conditional/WhereToCrop_mod.png)](./img_CatB/Conditional/WhereToCrop_mod.png) -->
+
+#### Iteration - Task 1
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatB/Iteration/ShiftDiagNPositions_Ex1.png)](./img_CatB/Iteration/ShiftDiagNPositions_Ex1.png) |
+|Example B| [![image](./img_CatB/Iteration/ShiftDiagNPositions_Ex2.png)](./img_CatB/Iteration/ShiftDiagNPositions_Ex2.png) |
+|Example C| [![image](./img_CatB/Iteration/ShiftDiagNPositions_Ex3.png)](./img_CatB/Iteration/ShiftDiagNPositions_Ex3.png) |
+
+<!-- **Target Program** -->
+
+<!-- [![image](./img_CatA/Task2_ARC.png)](./img_CatA/Task2_ARC.png) -->
+
+#### Iteration - Task 2
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatB/Iteration/ShiftRightNPositions_Ex1.png)](./img_CatB/Iteration/ShiftRightNPositions_Ex1.png) |
+|Example B| [![image](./img_CatB/Iteration/ShiftRightNPositions_Ex2.png)](./img_CatB/Iteration/ShiftRightNPositions_Ex2.png) |
+|Example C| [![image](./img_CatB/Iteration/ShiftRightNPositions_Ex3.png)](./img_CatB/Iteration/ShiftRightNPositions_Ex3.png) |
+
+<!-- **Target Program** -->
+
+<!-- [![image](./img_CatA/Task2_ARC.png)](./img_CatA/Task2_ARC.png) -->
+
+#### Sequence - Task 1
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatB/Sequence/Reflection_Ex1a.png)](./img_CatB/Sequence/Reflection_Ex1a.png) |
+|Example B| [![image](./img_CatB/Sequence/Reflection_Ex1b.png)](./img_CatB/Sequence/Reflection_Ex1b.png) |
+|Example C| [![image](./img_CatB/Sequence/Reflection_Ex1c.png)](./img_CatB/Sequence/Reflection_Ex1c.png) |
+
+**Target Program**
+
+[![image](./img_CatB/Sequence/Reflection.png)](./img_CatB/Sequence/Reflection.png)
+
+#### Sequence - Task 2
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatB/Sequence/Reflection_Ex2a.png)](./img_CatB/Sequence/Reflection_Ex2a.png) |
+|Example B| [![image](./img_CatB/Sequence/Reflection_Ex2b.png)](./img_CatB/Sequence/Reflection_Ex2b.png) |
+|Example C| [![image](./img_CatB/Sequence/Reflection_Ex2c.png)](./img_CatB/Sequence/Reflection_Ex2c.png) |
+
+<!-- **Target Program** -->
+
+<!-- [![image](./img_CatA/Task5_ARC.png)](./img_CatA/Task5_ARC.png) -->
+
+
 <!-- 
 You can use the [editor on GitHub](https://github.com/ac20/IPARC_Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

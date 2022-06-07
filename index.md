@@ -1,4 +1,12 @@
 ## IPARC Challenge 2022
+
+#### List of Primitives
+
+|   |   |
+|---|---|
+|   | ![image](./img_primitives/ChangeColor.pdf)  |
+|   |   |
+|   |   |
 <!-- 
 You can use the [editor on GitHub](https://github.com/ac20/IPARC_Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

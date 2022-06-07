@@ -2,11 +2,29 @@
 
 #### List of Primitives
 
-|   |   |
+|  Name  | Primitive  |
 |---|---|
-|   | ![image](./img_primitives/ChangeColor.pdf)  |
-|   |   |
-|   |   |
+| <tt> Change_Color </tt> | [![image](./img_primitives/ChangeColor.png)](./img_primitives/ChangeColor.png)  |
+| <tt> Change_Color_2 </tt> | [![image](./img_primitives/ChangeColor2.png)](./img_primitives/ChangeColor2.png) |
+| <tt> Crop </tt> | [![image](./img_primitives/Crop.png)](./img_primitives/Crop.png) |
+| <tt> Dilation_1 </tt> | [![image](./img_primitives/Dilation_Task11_1.png)](./img_primitives/Dilation_Task11_1.png) |
+| <tt> Dilation_2 </tt> | [![image](./img_primitives/Dilation_Task11_2.png)](./img_primitives/Dilation_Task11_2.png)  |
+| <tt> HMT_R1 </tt> | [![image](./img_primitives/HMT_Reflecttion1.png)](./img_primitives/HMT_Reflecttion1.png) |
+| <tt> HMT_R2 </tt> | [![image](./img_primitives/HMT_Reflecttion2.png)](./img_primitives/HMT_Reflecttion2.png) |
+| <tt> HMT_R3 </tt> | [![image](./img_primitives/HMT_Reflecttion3.png)](./img_primitives/HMT_Reflecttion3.png) |
+| <tt> HMT_R4 </tt> | [![image](./img_primitives/HMT_Reflecttion4.png)](./img_primitives/HMT_Reflecttion4.png)  |
+| <tt> HMT_SE1 </tt> | [![image](./img_primitives/HMT_Task11_1.png)](./img_primitives/HMT_Task11_1.png) |
+| <tt> HMT_SE2 </tt> | [![image](./img_primitives/HMT_Task11_2.png)](./img_primitives/HMT_Task11_2.png) |
+| <tt> Increase_Size </tt> | [![image](./img_primitives/IncreaseSize.png)](./img_primitives/IncreaseSize.png) |
+| <tt> Shift_Above </tt> | [![image](./img_primitives/ShiftAbove.png)](./img_primitives/ShiftAbove.png)  |
+| <tt> Shift_Below </tt> | [![image](./img_primitives/ShiftBelow.png)](./img_primitives/ShiftBelow.png) |
+| <tt> Shift_Right </tt> | [![image](./img_primitives/ShiftRight.png)](./img_primitives/ShiftRight.png) |
+| <tt> Shift_Left </tt> | [![image](./img_primitives/ShiftLeft.png)](./img_primitives/ShiftLeft.png) |
+| <tt> Top_Half_Plane_Closing </tt> | [![image](./img_primitives/TopHalfPlaneClosing.png)](./img_primitives/TopHalfPlaneClosing.png)  |
+| <tt> Bottom_Half_Plane_Closing </tt> | [![image](./img_primitives/BottomHalfPlaneClosing.png)](./img_primitives/BottomHalfPlaneClosing.png) |
+| <tt> Right_Half_Plane_Closing </tt> | [![image](./img_primitives/RightHalfPlaneClosing.png)](./img_primitives/RightHalfPlaneClosing.png) |
+| <tt> Left_Half_Plane_Closing </tt> | [![image](./img_primitives/LeftHalfPlaneClosing.png)](./img_primitives/LeftHalfPlaneClosing.png) |
+|---|---|
 <!-- 
 You can use the [editor on GitHub](https://github.com/ac20/IPARC_Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

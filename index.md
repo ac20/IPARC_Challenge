@@ -1,6 +1,6 @@
 ## IPARC Challenge 2022
 
-#### List of Primitives
+### List of Primitives
 
 |  Name  | Primitive  |
 |---|---|
@@ -24,7 +24,57 @@
 | <tt> Bottom_Half_Plane_Closing </tt> | [![image](./img_primitives/BottomHalfPlaneClosing.png)](./img_primitives/BottomHalfPlaneClosing.png) |
 | <tt> Right_Half_Plane_Closing </tt> | [![image](./img_primitives/RightHalfPlaneClosing.png)](./img_primitives/RightHalfPlaneClosing.png) |
 | <tt> Left_Half_Plane_Closing </tt> | [![image](./img_primitives/LeftHalfPlaneClosing.png)](./img_primitives/LeftHalfPlaneClosing.png) |
+
+### Category A Tasks
+
+#### Task 1 - Convex Closing
+
+|    |   |
 |---|---|
+|Example A| [![image](./img_CatA/ConvexClosing_Ex1.png)](./img_CatA/ConvexClosing_Ex1.png) |
+|Example B| [![image](./img_CatA/ConvexClosing_Ex2.png)](./img_CatA/ConvexClosing_Ex2.png) |
+|Example C| [![image](./img_CatA/ConvexClosing_Ex3.png)](./img_CatA/ConvexClosing_Ex3.png) |
+
+**Target Program**
+
+[![image](./img_CatA/ConvexClosing.png)](./img_CatA/ConvexClosing.png)
+
+#### Task 2 - Shift Down
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatA/Task2_ARC_Ex1.png)](./img_CatA/Task2_ARC_Ex1.png) |
+|Example B| [![image](./img_CatA/Task2_ARC_Ex2.png)](./img_CatA/Task2_ARC_Ex2.png) |
+|Example C| [![image](./img_CatA/Task2_ARC_Ex3.png)](./img_CatA/Task2_ARC_Ex3.png) |
+
+**Target Program**
+
+[![image](./img_CatA/Task2_ARC.png)](./img_CatA/Task2_ARC.png)
+
+#### Task 3 - Intersection
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatA/Task5_ARC_Ex1.png)](./img_CatA/Task5_ARC_Ex1.png) |
+|Example B| [![image](./img_CatA/Task5_ARC_Ex2.png)](./img_CatA/Task5_ARC_Ex2.png) |
+|Example C| [![image](./img_CatA/Task5_ARC_Ex3.png)](./img_CatA/Task5_ARC_Ex3.png) |
+
+**Target Program**
+
+[![image](./img_CatA/Task5_ARC.png)](./img_CatA/Task5_ARC.png)
+
+#### Task 4 - Conditional Dilation
+
+|    |   |
+|---|---|
+|Example A| [![image](./img_CatA/Task11_ARC_Ex1.png)](./img_CatA/Task11_ARC_Ex1.png) |
+|Example B| [![image](./img_CatA/Task11_ARC_Ex2.png)](./img_CatA/Task11_ARC_Ex2.png) |
+|Example C| [![image](./img_CatA/Task11_ARC_Ex3.png)](./img_CatA/Task11_ARC_Ex3.png) |
+
+**Target Program**
+
+[![image](./img_CatA/Task11_ARC_Ex1.png)](./img_CatA/Task11_ARC_Ex1.png)
+
 <!-- 
 You can use the [editor on GitHub](https://github.com/ac20/IPARC_Challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

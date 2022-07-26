@@ -61,7 +61,7 @@ def Change_Colour2(img, *args):
     [*, 1, 1] -> 1
     [*, 0, 1] -> 1 # This probably will not happen.
     [*, 1, 0] -> 1
-    Rest would be 0. 
+    Rest would be 0.
 
 
     """
@@ -89,7 +89,7 @@ def Change_Colour3(img, *args):
 
     So, the rule is
     [*, 1, *, 1] -> 1
-    Rest would be 0. 
+    Rest would be 0.
 
 
     """
@@ -111,6 +111,46 @@ def Change_Colour3(img, *args):
                      [1, 1, 1, 1, 1]])
 
     return Change_Colour(img, rule, keepdims=False)
+
+
+def Change_Colour4(img, *args):
+    """
+    The image is assumed to have 3 bands (colors) - 0,1,2
+
+     The final colouring is as follows:
+    1) The final answer is colored 1.
+    2) The rest is colored 0
+
+    Note:
+
+    So, the rules are
+    [*, 1, 0] -> 1
+    [*, 0, 1] -> 2
+    Rest would be 0.
+
+
+    """
+    rule = np.array([[0, 0, 0, 0],
+                     [0, 1, 0, 1],
+                     [0, 0, 1, 2],
+                     [0, 1, 1, 0],
+                     [1, 0, 0, 0],
+                     [1, 1, 0, 1],
+                     [1, 0, 1, 2],
+                     [1, 1, 1, 0]])
+
+    return Change_Colour(img, rule, keepdims=False)
+
+
+def Change_Colour5(img, *args):
+    """
+    Return arg max.
+
+    ** Works across different kinds of bands.
+    """
+    m, n, k = img.shape
+    img = k - 1 - np.argmax(img[:, :, ::-1], axis=-1)
+    return img
 
 
 def Change_Colour(img, rule, keepdims=True, *args):

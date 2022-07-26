@@ -13,7 +13,11 @@ def Dilation_SE1(img, band):
                        [0, 0, 1, 0, 0],
                        [0, 1, 0, 1, 0],
                        [1, 0, 0, 0, 1]])
-    img[:, :, band] = binary_dilation(img[:, :, band], struct)
+    if band == 999:
+        for band in range(k):
+            img[:, :, band] = binary_dilation(img[:, :, band], struct)
+    else:
+        img[:, :, band] = binary_dilation(img[:, :, band], struct)
     return img
 
 
@@ -25,7 +29,11 @@ def Dilation_SE2(img, band):
                        [1, 1, 0, 1, 1],
                        [0, 0, 1, 0, 0],
                        [0, 0, 1, 0, 0]])
-    img[:, :, band] = binary_dilation(img[:, :, band], struct)
+    if band == 999:
+        for band in range(k):
+            img[:, :, band] = binary_dilation(img[:, :, band], struct)
+    else:
+        img[:, :, band] = binary_dilation(img[:, :, band], struct)
     return img
 
 

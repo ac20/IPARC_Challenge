@@ -81,6 +81,8 @@ dict_primitives = {
     'Change_Colour1': Change_Colour.Change_Colour1,
     'Change_Colour2': Change_Colour.Change_Colour2,
     'Change_Colour3': Change_Colour.Change_Colour3,
+    'Change_Colour4': Change_Colour.Change_Colour4,
+    'Change_Colour5': Change_Colour.Change_Colour5,
     'Create_Copy': CreateCopy
 }
 

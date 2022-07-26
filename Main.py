@@ -129,11 +129,15 @@ def apply(prog, img, *args):
         for z in list_ops:
             out = re.split('[\W]', z)
             fn_name = out[0]
-            if len(out) > 1:
-                a = int(out[1])
+            if len(out) > 2:
+                args = tuple([int(x) for x in out[1:-1]])
+                img = dict_primitives[fn_name](img, *args)
+            elif len(out) == 2:
+                args = int(out[1])
+                img = dict_primitives[fn_name](img, args)
             else:
-                a = None
-            img = dict_primitives[fn_name](img, a)
+                args = None
+                img = dict_primitives[fn_name](img, args)
     return img
 
 
@@ -153,5 +157,11 @@ for ind_image in range(len(data)):
     inp_process = [[int(y) for y in x] for x in inp_process]
     data[ind_image]['out_pred'] = inp_process
 
-with open('./temp/CatA_Task1.json', "w") as f:
-    f.write(json.dumps(data))
+
+if args.f_output is None:
+    fname = args.f_input
+    fname = fname.replace("/", "_")
+    fname = fname.replace("Dataset", "")
+    fname = fname.replace("._", "./temp/")
+    with open(fname, "w") as f:
+        f.write(json.dumps(data))

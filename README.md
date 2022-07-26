@@ -4,6 +4,12 @@ Solution for Cat A Task-1
 
     python Main.py --input ./Dataset/CatA/Task1.json --prog Process Create_Copy[0] Bottom_HalfPlane_Closing[1] Change_Colour1 Top_HalfPlane_Closing[1] Change_Colour1 Left_HalfPlane_Closing[1] Change_Colour1 Right_HalfPlane_Closing[1] Change_Colour1 Change_Colour2
 
+Solution for Cat A Task-2
+
+    python Main.py --input ./Dataset/CatA/Task2.json --prog Process Create_Copy[1] Pad[0,3,0,0] Shift_Down[1] Shift_Down[1] Shift_Down[1] Change_Colour2
+
+    
+
 Notes:
 ------
 

@@ -17,7 +17,21 @@ def Change_Colour_default(img, *args):
 
 
 def Change_Colour1(img, *args):
-    """Adds a new color to the foreground
+    """
+    The image is assumed to have 3 bands (colors) - 0,1,2
+
+    The final colouring is as follows:
+    1) The original set of pixels is colored 1
+    2) The proposed extension is colored 2
+    3) The rest is colored 0
+
+    Note: It is expected that band 2 has all the proposed pixels, which
+    initially is entire background and is refined after each primitive.
+
+    So, the rules are
+    [0, 1, 0] -> 1
+    [*, 1, 1] -> 2
+    rest is mapped to be 0.
     """
     rule = np.array([[0, 0, 0, 0],
                      [0, 1, 0, 1],
@@ -32,7 +46,24 @@ def Change_Colour1(img, *args):
 
 
 def Change_Colour2(img, *args):
-    """Adds a new color to the foreground
+    """
+    The image is assumed to have 3 bands (colors) - 0,1,2
+
+     The final colouring is as follows:
+    1) The final answer is colored 1.
+    2) The rest is colored 0
+
+    Note: The input to this is expected to have the original pixels in
+    band-1, proposed extended pixels in band-2. Union of these two bands
+    is to be colored 1 and the rest 0.
+
+    So, the rules are
+    [*, 1, 1] -> 1
+    [*, 0, 1] -> 1 # This probably will not happen.
+    [*, 1, 0] -> 1
+    Rest would be 0. 
+
+
     """
     rule = np.array([[0, 0, 0, 0],
                      [0, 1, 0, 1],

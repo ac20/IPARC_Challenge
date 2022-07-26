@@ -13,6 +13,7 @@ Solution for Cat A Task-3
     python Main.py --input ./Dataset/CatA/Task3.json --prog Process Create_Copy[1] Pad[0,0,0,3] Shift_Right[1] Shift_Right[1] Shift_Right[1] Shift_Right[1] Crop[0,3,4,7] Change_Colour3
 
 Solution for Task-4 (`999` indicates ALL bands.)
+  
     python Main.py --input ./Dataset/CatA/Task4.json --prog Process UnionEndo-HMT_SE1[999]-Dilation_SE1[999] UnionEndo-HMT_SE2[999]-Dilation_SE2[999] Change_Colour5
 
 

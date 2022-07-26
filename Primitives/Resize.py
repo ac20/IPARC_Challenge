@@ -5,7 +5,7 @@ import numpy as np
 import pdb
 
 
-def Crop(img, x1, y1, x2, y2):
+def Crop(img, x1, x2, y1, y2):
     """
     Crops the image with corners (x1,y1), (x2,y2)
 

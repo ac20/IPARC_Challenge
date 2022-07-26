@@ -77,6 +77,42 @@ def Change_Colour2(img, *args):
     return Change_Colour(img, rule, keepdims=False)
 
 
+def Change_Colour3(img, *args):
+    """
+    The image is assumed to have 3 bands (colors) - 0,1,2
+
+    The final colouring is as follows:
+    1) The final answer is colored 1.
+    2) The rest is colored 0
+
+    Note: The output is the intersection of bands 1 and 3.
+
+    So, the rule is
+    [*, 1, *, 1] -> 1
+    Rest would be 0. 
+
+
+    """
+    rule = np.array([[0, 0, 0, 0, 0],
+                     [0, 1, 0, 0, 0],
+                     [0, 0, 0, 1, 0],
+                     [0, 1, 0, 1, 1],
+                     [1, 0, 0, 0, 0],
+                     [1, 1, 0, 0, 0],
+                     [1, 0, 0, 1, 0],
+                     [1, 1, 0, 1, 1],
+                     [0, 0, 1, 0, 0],
+                     [0, 1, 1, 0, 0],
+                     [0, 0, 1, 1, 0],
+                     [0, 1, 1, 1, 1],
+                     [1, 0, 1, 0, 0],
+                     [1, 1, 1, 0, 0],
+                     [1, 0, 1, 1, 0],
+                     [1, 1, 1, 1, 1]])
+
+    return Change_Colour(img, rule, keepdims=False)
+
+
 def Change_Colour(img, rule, keepdims=True, *args):
     """
     The rule is a mapping {0,1}^k -> {0,1,2,...k}
